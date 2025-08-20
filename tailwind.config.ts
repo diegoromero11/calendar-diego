@@ -26,7 +26,19 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
+				},
+				calendar: {
+					today: 'hsl(var(--calendar-today))',
+					weekend: 'hsl(var(--calendar-weekend))',
+					event: {
+						blue: 'hsl(var(--calendar-event-blue))',
+						green: 'hsl(var(--calendar-event-green))',
+						orange: 'hsl(var(--calendar-event-orange))',
+						purple: 'hsl(var(--calendar-event-purple))',
+						red: 'hsl(var(--calendar-event-red))'
+					}
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
