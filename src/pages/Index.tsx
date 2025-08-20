@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { CalendarHeader } from '@/components/Calendar/CalendarHeader';
 import { CalendarSidebar } from '@/components/Calendar/CalendarSidebar';
 import { MonthView } from '@/components/Calendar/MonthView';
+import { ChatButton } from '@/components/Chat/ChatButton';
 
 interface CalendarItem {
   id: string;
@@ -128,6 +129,8 @@ const Index = () => {
           )}
         </main>
       </div>
+      
+      <ChatButton />
     </div>
   );
 };
